@@ -1,0 +1,27 @@
+.intro {
+    min-height: 1000px;
+    background-image: url(../assets/imgs/intro/main-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    &__container {
+        min-height: 296px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.intro-block {
+    max-width: 1110px;
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+
+    &__item {
+      max-width: 350px;
+      min-height: 300px;
+      border-radius: 20px 0px;
+        
+    }
+}
